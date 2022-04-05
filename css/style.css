@@ -1,0 +1,61 @@
+:root {
+  --background: #252525;
+  --detail: #5f4b64;
+  --text: #fff6ff;
+  --font-primary: "Nanum Gothic Coding", monospace;
+  --size-large: 64px;
+  --size-medium: 38px;
+  --size-normal: 24px;
+}
+
+body {
+  background-color: var(--background);
+  font-family: var(--font-primary);
+  color: var(--text);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__title {
+  font-size: var(--size-large);
+}
+
+.main__title {
+  font-size: var(--size-medium);
+}
+
+.main__form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-text,
+.input-btn {
+  border: 1px solid var(--text);
+  background: transparent;
+  color: var(--text);
+  width: 70%;
+  padding: 8px;
+}
+
+.input-btn {
+  width: 30%;
+  cursor: pointer;
+}
+
+.hero__date-title {
+  font-size: var(--size-normal);
+  margin: 0;
+}
+
+.hero__date-items {
+  display: flex;
+  align-items: center;
+}
+
+.hero__date-items p {
+  margin-left: 10px;
+}

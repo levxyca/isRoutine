@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>is Routine</title>
+  </head>
+  <body>
+    <div>
+      <header class="hero">
+        <h1 class="hero__title">is Routine</h1>
+        <section class="hero__date">
+          <h2 class="hero__date-title">Today is</h2>
+          <div class="hero__date-items">
+            <i class="fa fa-calendar"></i>
+            <p>16 Mar 2022</p>
+          </div>
+        </section>
+      </header>
+      <main class="main">
+        <section class="main__form">
+          <input
+            type="text"
+            placeholder="routine item"
+            class="input-text"
+            id="value"
+          />
+          <input type="button" value="+" class="input-btn" id="enter" />
+        </section>
+        <section class="main__routine">
+          <ul class="main__routine-items"></ul>
+        </section>
+      </main>
+    </div>
+    <script src="js/login.js"></script>
+    <script src="js/todo.js"></script>
+  </body>
+</html>
